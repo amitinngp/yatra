@@ -1,12 +1,13 @@
-# Project Title
-
-Yatra - Design Handbook
+# Yatra - Design Handbook
 
 ## Description
 
 This is intended to help business with in-built UI components that can be seamlessly integrated as a package and utilized.
 
 ### Dependency
+
+- node version > 12.x
+- Expo cli
 
 #### Installation
 
@@ -49,8 +50,9 @@ To run in actual device
 
 ##### Authors
 
-- @amananurag
-- @amitinngp
+- [@amananurag](https://github.com/amitinngp)
+- [@amit](https://github.com/amananurag)
+- [@nikeshgadekar](https://github.com/nikeshgadekar007)
 
 ###### version history
 
