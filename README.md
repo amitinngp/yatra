@@ -1,6 +1,17 @@
-# yatra
+# Project Title
 
-This application is design system for our project using react native
+Yatra - Design Handbook
+
+## Description
+
+This is intended to help business with in-built UI components that can be seamlessly integrated as a package and utilized.
+
+### Dependency
+
+#### Installation
+
+This project uses React Native components with typescript support . Transpiled via Babel.js .
+For package manager either npm or yarn can be used. We have preferred yarn over npm in setup.
 
 ### Local Environment Setup
 
@@ -35,3 +46,18 @@ To run in actual device
 
     Press ? │ show all commands
 ```
+
+##### Authors
+
+- @amananurag
+- @amitinngp
+
+###### version history
+
+- 0.1 initial release
+
+##### Licence
+
+MIT Licence
+
+##### Acknowledgement
