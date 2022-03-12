@@ -1,6 +1,4 @@
-# Project Title
-
-Yatra - Design Handbook
+# Yatra - Design Handbook
 
 ## Description
 
@@ -8,10 +6,13 @@ This is intended to help business with in-built UI components that can be seamle
 
 ### Dependency
 
+- node version > 12.x
+- Expo cli
+
 #### Installation
 
 This project uses React Native components with typescript support . Transpiled via Babel.js .
-For package manager either npm or yarn can be used. We have preferred yarn over npm in setup.
+For package manager either npm or yarn can be used. We prefer yarn over npm in setup.
 
 ### Local Environment Setup
 
@@ -49,8 +50,9 @@ To run in actual device
 
 ##### Authors
 
-- @amananurag
-- @amitinngp
+- [@amananurag](https://github.com/amitinngp)
+- [@amit](https://github.com/amananurag)
+- [@nikeshgadekar](https://github.com/nikeshgadekar007)
 
 ###### version history
 
