@@ -12,7 +12,7 @@ This is intended to help business with in-built UI components that can be seamle
 #### Installation
 
 This project uses React Native components with typescript support . Transpiled via Babel.js .
-For package manager either npm or yarn can be used. We have preferred yarn over npm in setup.
+For package manager either npm or yarn can be used. We prefer yarn over npm in setup.
 
 ### Local Environment Setup
 
