@@ -21,7 +21,11 @@ For package manager either npm or yarn can be used. We prefer yarn over npm in s
 - install expo cli
   `sudo npm i -g expo cli` for mac.
   `npm i -g expo cli` for windows.
-
+- install Docker 
+  `docker-compose build` #  build docker image
+  `docker-compose up`    #  start docker container
+  `docker-compose down`  #  stop docker container 
+  `docker ps`            #  list active container
 #### Run app
 
 ```
@@ -30,7 +34,9 @@ For package manager either npm or yarn can be used. We prefer yarn over npm in s
     "expo start --ios" for running on ios simulator
     "expo start --web" for running on local browser.
 ```
-
+# Using Docker in local env 
+  "docker-compose up"
+  
 To run in actual device
 
 ```
