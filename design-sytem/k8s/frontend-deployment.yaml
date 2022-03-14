@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  labels:
+    app: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+     app: frontend
+  template:
+      metadata:
+        name: frontend
+        labels:
+          app: frontend
+      spec:
+        containers:
+          - name: handbook
+            image: 1007215/design-system:handbook
+            ports:
+              - containerPort: 19000
+                name: metro-bundler
+              - containerPort: 19006
+                name: web-app
+              - containerPort: 19002
+                name: dev-tool
+            env:
+              - name: EXPO_DEVTOOLS_LISTEN_ADDRESS
+                value: 0.0.0.0
+              - name: REACT_NATIVE_PACKAGER_HOSTNAME
+                value: 192.168.29.186
