@@ -26,6 +26,11 @@ For package manager either npm or yarn can be used. We prefer yarn over npm in s
   `docker-compose up`    #  start docker container
   `docker-compose down`  #  stop docker container 
   `docker ps`            #  list active container
+  
+##### K8s cluster
+
+- kubectl apply -f frontend-service.yaml
+- kubectl apply -f frontend-deployment.yaml
 #### Run app
 
 ```
